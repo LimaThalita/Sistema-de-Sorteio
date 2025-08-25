@@ -1,0 +1,54 @@
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('image/connect.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+
+.container {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6); /* preto semi-transparente */
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+.container h1 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.resultado {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 20px 0;
+  color: #fff;
+}
+
+.botoes button {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 12px 25px;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: 0.3s;
+
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  letter-spacing: 1px; 
+}
+
+.botoes button:hover {
+  background-color: #ddd;
+}
