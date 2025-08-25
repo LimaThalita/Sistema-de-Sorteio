@@ -7,8 +7,8 @@ body {
   align-items: center;
   background: url('image/connect.jpg') no-repeat center center fixed;
   background-size: cover;
-  font-family: Arial, sans-serif;
   color: white;
+  font-family: 'Merriweather', serif;
 }
 
 
@@ -44,7 +44,7 @@ body {
   cursor: pointer;
   transition: 0.3s;
 
-  font-family: 'Playfair Display', serif;
+  font-family: 'Merriweather', serif;
   font-weight: 600;
   letter-spacing: 1px; 
 }
