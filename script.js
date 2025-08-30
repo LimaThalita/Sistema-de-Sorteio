@@ -12,7 +12,7 @@ function escolherNumeroAleatorio(valorMaximo){
 
 function sortear(){
     let numero = escolherNumeroAleatorio(50);
-    let posicaoCartela = escolherNumeroAleatorio(30);
+    let posicaoCartela = escolherNumeroAleatorio(32);
     let cartela = selecionaCartelaPelaPosicao(posicaoCartela);
     
     const elemento = document.getElementById('resultado');
