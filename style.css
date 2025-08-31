@@ -68,3 +68,11 @@ canvas {
   z-index: 10000 !important; /* 🔹 maior que o do SweetAlert */
   pointer-events: none;
 }
+
+#resultado img {
+   display: block;
+  margin: 0 auto;
+  max-width: 250px; 
+  width: 100%;       
+  height: auto;      
+}
