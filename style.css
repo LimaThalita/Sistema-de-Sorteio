@@ -5,14 +5,20 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url('image/connect.jpg') no-repeat center center fixed;
+  background: url('image/connect_sorteio.jpg') no-repeat center center fixed;
   background-size: cover;
-  font-family: Arial, sans-serif;
+  
   color: white;
+  font-family: 'Merriweather', serif;
 }
 
 
 .container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
   text-align: center;
   background-color: rgba(0, 0, 0, 0.6); /* preto semi-transparente */
   padding: 30px;
@@ -44,11 +50,21 @@ body {
   cursor: pointer;
   transition: 0.3s;
 
-  font-family: 'Playfair Display', serif;
+  font-family: 'Merriweather', serif;
   font-weight: 600;
   letter-spacing: 1px; 
 }
 
 .botoes button:hover {
   background-color: #ddd;
+}
+
+canvas {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+  z-index: 10000 !important; /* 🔹 maior que o do SweetAlert */
+  pointer-events: none;
 }
